@@ -1,0 +1,9 @@
+.container {
+  border: solid 1px red;
+  width: 100%;
+}
+
+.info {
+  border: solid 1px blue;
+  display: flex;
+}

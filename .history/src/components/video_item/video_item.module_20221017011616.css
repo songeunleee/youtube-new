@@ -1,0 +1,36 @@
+.container {
+  border: solid 1px red;
+  width: 320px;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 250ms ease-in;
+  box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+.info {
+  border: solid 1px blue;
+  display: flex;
+}
+.title {
+  border: solid 1px red;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 1.6rem;
+}
+.channeId {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font
+}

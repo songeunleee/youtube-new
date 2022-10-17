@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  justify-items: flex-end;
+  align-items: flex-start;
+}
+
+.input {
+  margin: 10px 0;
+  padding: 8px 6px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 1rem;
+}

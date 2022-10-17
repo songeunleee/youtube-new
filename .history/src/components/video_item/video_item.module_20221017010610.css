@@ -1,0 +1,20 @@
+.container {
+  border: solid 1px red;
+  width: 320px;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.info {
+  border: solid 1px blue;
+  display: flex;
+}
+.text {
+  white-space: normal;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border: 1px solid red;
+}
+
+.searchbox {
+  border: 1px solid red;
+}
+.input {
+  margin: 10px 0;
+  padding: 8px 6px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 1rem;
+}
+.btn {
+  height: 100%;
+}

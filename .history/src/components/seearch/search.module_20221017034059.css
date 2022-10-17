@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.input {
+  margin: 10px 0;
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 1rem;
+  line-height: 40px;
+}

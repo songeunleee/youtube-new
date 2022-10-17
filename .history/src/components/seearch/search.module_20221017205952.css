@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+.logo {
+  border: 1px solid red;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImg {
+  width: 70px;
+  height: 70px;
+}
+
+.searchbox {
+  border: 1px solid red;
+  flex-grow: 2;
+}
+.input {
+  margin: 10px 0;
+  padding: 10px 6px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 18px;
+}
+.btn {
+  height: 100%;
+}

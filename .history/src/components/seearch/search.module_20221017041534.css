@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.searchbox {
+  width: 100%;
+}
+.input {
+  margin: 10px 0;
+  padding: 8px 6px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 1rem;
+}
+.btn {
+  height: 100%;
+}

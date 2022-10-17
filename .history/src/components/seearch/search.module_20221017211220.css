@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logoImg {
+  width: 70px;
+  height: 70px;
+  margin-right: 8px;
+}
+
+.searchbox {
+  flex-grow: 2;
+  display: flex;
+}
+.input {
+  margin: 10px 0;
+  padding: 10px 6px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 18px;
+  width: 75%;
+  border-radius: 0;
+}
+.btn {
+  background: none;
+  border: none;
+}
+
+i {
+  font-size: 25px;
+  cursor: pointer;
+  color: gray;
+  transition: transform 500ms ease-in;
+}
+
+i:hover {
+  transform: rotate(360deg);
+}

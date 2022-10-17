@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -1px;
+}
+
+.logoImg {
+  width: 70px;
+  height: 70px;
+  margin-right: 8px;
+}
+
+.searchbox {
+  display: flex;
+}
+.input {
+  margin: 10px 0;
+  padding: 10px 6px;
+  border: 1px solid lightgrey;
+  outline: 0;
+  font-size: 18px;
+  width: 60%;
+  border-radius: 0;
+}
+.btn {
+  background: none;
+  border: none;
+}
+
+i {
+  font-size: 25px;
+  cursor: pointer;
+  color: gray;
+  transition: transform 500ms ease-in;
+}
+
+i:hover {
+  transform: rotate(360deg);
+}
