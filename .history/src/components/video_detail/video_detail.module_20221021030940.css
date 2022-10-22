@@ -1,0 +1,49 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channelInfo {
+  display: flex;
+  align-items: center;
+}
+
+.channelTumb {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.channelInfoTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chTitle {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.chCount {
+  font-size: 1em;
+  margin: 0;
+}
+
+.videoInfo {
+  display: flex;
+  align-items: center;
+}
+.like {
+  margin-left: 1em;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}

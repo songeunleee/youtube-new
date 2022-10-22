@@ -1,0 +1,5 @@
+.box {
+  max-width: max-content;
+  display: flex;
+  justify-content: center;
+}

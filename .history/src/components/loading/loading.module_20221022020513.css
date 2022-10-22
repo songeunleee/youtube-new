@@ -1,0 +1,33 @@
+.box {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #ffffffb7;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  width: 30%;
+  transition: transform 250ms ease-in;
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
+.loading:hover {
+  transform: scale(1.02);
+}
+
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

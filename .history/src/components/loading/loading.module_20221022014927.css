@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  width: 30%;
+  transition: transform 250ms ease-in;
+}
+.loading:hover {
+  transform: opacity(1.02);
+}

@@ -1,0 +1,6 @@
+.box {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  border: 1px solid red;
+}

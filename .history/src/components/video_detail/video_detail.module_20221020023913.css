@@ -1,0 +1,28 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channelInfo {
+  display: flex;
+  align-items: center;
+}
+
+.channelTumb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  padding-right: 7px;
+}
+
+.videoInfo {
+  display: flex;
+  align-items: center;
+}

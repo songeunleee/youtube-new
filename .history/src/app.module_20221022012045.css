@@ -1,0 +1,23 @@
+.app {
+  width: 90%;
+  display: flex;
+
+  justify-items: cente;
+}
+
+.video {
+  display: flex;
+}
+
+.detail {
+  flex: 1 1 85%;
+}
+
+.list {
+  flex: 1 1 15%;
+}
+@media screen and (max-width: 80rem) {
+  .video {
+    display: block;
+  }
+}

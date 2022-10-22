@@ -1,0 +1,42 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channelInfo {
+  display: flex;
+  align-items: center;
+}
+
+.channelTumb {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.channelInfoTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chTitle {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.chCount {
+  font-size: 1em;
+  margin: 0;
+}
+
+.videoInfo {
+  display: flex;
+  align-items: center;
+}

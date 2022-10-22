@@ -1,0 +1,15 @@
+.app {
+  width: 90%;
+}
+
+.video {
+  display: flex;
+}
+
+.detail {
+  flex-grow: 2;
+}
+
+.list {
+  flex-grow: 1;
+}

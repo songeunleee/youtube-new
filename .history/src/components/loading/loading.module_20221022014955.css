@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  width: 30%;
+  transition: transform 250ms ease-in;
+}
+.loading:hover {
+  background: rgba(255, 255, 255, 0.3);
+  /* 변형할 것은 배경 1초, 빠른 시작 서서히 감속*/
+  transition: background 1s ease-out;
+}

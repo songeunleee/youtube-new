@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 30%;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+img:after {
+  background: rgba(255, 255, 255, 0.3);
+  transition: background 1s ease-out;
+}

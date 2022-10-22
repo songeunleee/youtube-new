@@ -1,0 +1,14 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.info {
+  display: flex;
+}
+
+.channelInfo {
+  display: flex;
+}

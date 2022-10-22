@@ -1,0 +1,23 @@
+.box {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #ffffffb7;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  width: 30%;
+  transition: transform 250ms ease-in;
+}
+.loading:hover {
+  background: rgba(255, 255, 255, 0.3);
+  /* 변형할 것은 배경 1초, 빠른 시작 서서히 감속*/
+  transition: background 1s ease-out;
+}

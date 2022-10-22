@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  width: 30%;
+  transition-property: background-color;
+  /*변형 완료 1초*/
+  transition-duration: 1s;
+  /*빠른 시작 서서히 감속*/
+  transition-timing-function: ease-out;
+}
+img:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transition: background 1s ease-out;
+}
